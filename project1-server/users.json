@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "5ffc64c55fdd163fd010823f"
+  },
+  "username": "admin",
+  "email": "thai.nt2908@gmail.com",
+  "firebaseUid": "P9IYE9Ia1YhohiADuKpsI2YrFUU2",
+  "role": {
+    "_id": 1,
+    "name": "admin"
+  }
+},{
+  "_id": {
+    "$oid": "5ffc651c3df2b51aecd4ed18"
+  },
+  "username": "hieu",
+  "email": "wizard201366@gmail.com",
+  "firebaseUid": "d5IfrmsCK6P8rIpxKx2nd6dSuzx1",
+  "role": {
+    "_id": 2,
+    "name": "user"
+  }
+}]

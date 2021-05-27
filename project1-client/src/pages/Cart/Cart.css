@@ -1,0 +1,76 @@
+/** Used to define container behavior: width, position: fixed etc... **/
+.Toastify__toast-container {
+    position: fixed;
+    z-index: 99999;
+}
+
+.Toastify__toast-container > div {
+    position: relative;
+    width: 18.75rem;
+    padding: 15px 15px 15px 50px;
+    margin: 0 0 6px;
+    overflow: hidden;
+    filter: alpha(opacity=95);
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    opacity: .95;
+}
+
+/** Used to define the position of the ToastContainer **/
+.Toastify__toast-container--top-left {
+}
+.Toastify__toast-container--top-center {
+}
+.Toastify__toast-container--top-right {
+}
+.Toastify__toast-container--bottom-left {
+}
+.Toastify__toast-container--bottom-center {
+}
+.Toastify__toast-container--bottom-right {
+}
+
+/** Classes for the displayed toast **/
+.Toastify__toast {
+}
+.Toastify__toast--rtl {
+}
+.Toastify__toast--dark {
+}
+.Toastify__toast--default {
+}
+.Toastify__toast--info {
+}
+.Toastify__toast--success {
+}
+.Toastify__toast--warning {
+}
+.Toastify__toast--error {
+}
+.Toastify__toast-body {
+}
+
+/** Classes for the close button. Better use your own closeButton **/
+.Toastify__close-button {
+}
+.Toastify__close-button--default {
+}
+.Toastify__close-button > svg {
+}
+.Toastify__close-button:hover, .Toastify__close-button:focus {
+}
+
+/** Classes for the progress bar **/
+.Toastify__progress-bar {
+}
+.Toastify__progress-bar--animated {
+}
+.Toastify__progress-bar--controlled {
+}
+.Toastify__progress-bar--rtl {
+}
+.Toastify__progress-bar--default {
+}
+.Toastify__progress-bar--dark {
+}

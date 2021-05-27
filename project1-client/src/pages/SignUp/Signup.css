@@ -1,0 +1,30 @@
+#sign-up .view {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOCQbOXPHQcpFu2x9io3F4rT4sdbuAyI2vfA&usqp=CAU');
+  background-size: cover;
+  height: 100vh;
+}
+
+#sign-up .card {
+  background-color: rgba(229, 228, 255, 0.2);;
+}
+#sign-up h6 {
+  line-height: 1.7;
+}
+
+#sign-up .form-check {
+  margin-bottom: 0!important;
+}
+#sign-up .md-form label {
+  color: #ffffff;
+}
+#sign-up .md-form input[type=text]:focus:not([readonly])+label,
+#sign-up .md-form input[type=password]:focus:not([readonly])+label,
+#sign-up .md-form input[type=email]:focus:not([readonly])+label {
+  color: #8EDEF8;
+}
+#sign-up .md-form input[type=text]:focus:not([readonly]),
+#sign-up .md-form input[type=password]:focus:not([readonly]),
+#sign-up .md-form input[type=email]:focus:not([readonly]) {
+  border-bottom: 1px solid #8EDEF8;
+  box-shadow: 0 1px 0 0 #8EDEF8;
+}

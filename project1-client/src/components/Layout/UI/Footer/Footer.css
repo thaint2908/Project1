@@ -1,0 +1,9 @@
+.pd-inline-start {
+    padding-inline-start: 40px;
+}
+
+@media (max-width: 768px) {
+    .pd-inline-start {
+        padding-inline-start: 0;
+    }
+}

@@ -1,0 +1,15 @@
+.active-primary input[type=text]:focus:not([readonly]) {
+    border: 1px solid #4285f4;
+    box-shadow: 0 0 0 1px #4285f4;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
